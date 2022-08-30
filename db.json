@@ -1,0 +1,310 @@
+{
+  "Category": [
+    {
+      "id": 1,
+      "name": "Áo thun"
+    },
+    {
+      "id": 2,
+      "name": "Áo khoác"
+    },
+    {
+      "id": 3,
+      "name": "Quần JEAN"
+    },
+    {
+      "id": 4,
+      "name": "Quần dài"
+    },
+    {
+      "id": 5,
+      "name": "Phụ kiện"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver23",
+      "cate_id": 1,
+      "price": 180000,
+      "detail": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver23",
+      "image": "img/product/product-5.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "name": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver25",
+      "price": 500000,
+      "image": "img/product/product-8.jpg",
+      "detail": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver25",
+      "cate_id": "1",
+      "id": 2,
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Áo Khoác Hoodie Đơn Giản Y Nguyên Bản Ver21",
+      "cate_id": 2,
+      "price": 299000,
+      "detail": "Áo Khoác Hoodie Đơn Giản Y Nguyên Bản Ver21",
+      "image": "img/product/product-4.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Áo Khoác Varsity Thần Cổ Đại Valknut Ver4",
+      "cate_id": 2,
+      "price": 595000,
+      "detail": "Áo Khoác Varsity Thần Cổ Đại Valknut Ver4",
+      "image": "img/product/product-12.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Quần Dài Jean Straight Đơn Giản Y Nguyên Bản Ver5",
+      "cate_id": 3,
+      "price": 285000,
+      "detail": "Quần Dài Jean Straight Đơn Giản Y Nguyên Bản Ver5",
+      "image": "img/product/product-15.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "name": "Quần Dài Jean Straight Đơn Giản Y Nguyên Bản Ver5",
+      "price": "500000",
+      "image": "img/product/product-18.jpg",
+      "detail": "Quần Dài Jean Straight Đơn Giản Y Nguyên Bản Ver5",
+      "cate_id": "3",
+      "id": 6,
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "name": "Quần Dài Sweatpants Linh Vật Bbuff Ver1",
+      "price": 228000,
+      "image": "img/product/product-17.jpg",
+      "detail": "Quần Dài Sweatpants Linh Vật Bbuff Ver1",
+      "cate_id": "4",
+      "id": 7,
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Quần Dài Sweatpants Linh Vật Olygre Ver1",
+      "cate_id": 4,
+      "price": 295200,
+      "detail": "Quần Dài Sweatpants Linh Vật Olygre Ver1",
+      "image": "img/product/product-18.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "PKTT Vớ Đơn Giản V01",
+      "cate_id": 5,
+      "price": 19500,
+      "detail": "PKTT Vớ Đơn Giản V01",
+      "image": "img/product/product-11.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "PKTT Móc Khóa M3",
+      "cate_id": 5,
+      "price": 49000,
+      "detail": "PKTT Móc Khóa M3",
+      "image": "img/product/product-7.jpg",
+      "size": [
+        "s",
+        "m",
+        "l"
+      ]
+    }
+  ],
+  "order": [
+    {
+      "customer_name": "Lý Thành Phú",
+      "customer_address": "Châu Thành, Đồng tháp",
+      "customer_email": "phultpc01595@fpt.edu.vn",
+      "customer_phone_number": "0794248804",
+      "customer_date": "Wed Feb 23",
+      "status": "Đặt hàng thành công",
+      "tongthanhtoan": 1113600,
+      "id": 1
+    },
+    {
+      "customer_name": "Lý Thành Phú",
+      "customer_address": "Châu Thành, Đồng tháp",
+      "customer_email": "phudeptrai@gmail.com",
+      "customer_phone_number": "0794248804",
+      "customer_date": "Wed Feb 23",
+      "status": "Đặt hàng thành công",
+      "tongthanhtoan": 1180000,
+      "id": 2
+    },
+    {
+      "customer_name": "Lý Thành Phú",
+      "customer_address": "Châu Thành, Đồng tháp",
+      "customer_email": "phultpc01595@fpt.edu.vn",
+      "customer_phone_number": "0794248804",
+      "customer_date": "Wed Feb 23",
+      "status": "Đặt hàng thành công",
+      "tongthanhtoan": 1000000,
+      "id": 3
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "pro_id": 7,
+      "quantity": 1,
+      "tongtien": 1113600,
+      "unit_price": 228000,
+      "id": 1
+    },
+    {
+      "order_id": 1,
+      "pro_id": 8,
+      "quantity": "3",
+      "tongtien": 1113600,
+      "unit_price": 295200,
+      "id": 2
+    },
+    {
+      "order_id": 2,
+      "pro_id": 1,
+      "quantity": 1,
+      "tongtien": 1180000,
+      "unit_price": 180000,
+      "id": 3
+    },
+    {
+      "order_id": 2,
+      "pro_id": 2,
+      "quantity": 2,
+      "tongtien": 1180000,
+      "unit_price": 500000,
+      "id": 4
+    },
+    {
+      "order_id": 3,
+      "pro_id": 2,
+      "quantity": "2",
+      "tongtien": 1000000,
+      "unit_price": 500000,
+      "id": 5
+    }
+  ],
+  "blog": [
+    {
+      "name": "Khảo sát thị trường - lập kế hoạch kinh doanh quần áo online",
+      "tomtat": "Nhìn vào con số kia chắc bạn cũng hiểu về mức độ cạnh tranh khi bán hàng online quần áo rồi chứ?",
+      "noidung": "Kinh doanh quần áo online bắt đầu từ đâu? Cách bán quần áo online đúng đắn bạn không bao giờ được phép bỏ qua khâu khảo sát thị trường, lập kế hoạch kinh doanh quần áo online để nắm bắt xu hướng, tâm lý người tiêu dùng. Trong bước này, bạn cần làm gì?  Trước tiên hãy tham khảo mô hình, cách thức và tình trạng kinh doanh của các cửa hàng thời trang offline và online cũng như các mẫu mã, thể loại, kiểu dáng thời trang đang được ưa chuộng nhất. Sau đó, tìm hiểu kĩ hơn về giá cả, phân tích người ta tốt ở chỗ nào, chưa được ở đâu, nguyên nhân tồn tại hoặc thất bại ra sao…",
+      "image": "https://blog.dktcdn.net/files/kinh-doanh-quan-ao-online-1111.jpeg",
+      "id": 1
+    },
+    {
+      "name": "Tuyệt chiêu để kinh doanh quần áo online hiệu quả",
+      "tomtat": "Nếu bạn gõ cụm từ “cách kinh doanh quần áo online” vào khung tìm kiếm của Google thì ngay lập tức gã khổng lồ này sẽ trả về cho bạn 538.000 kết quả khác nhau.",
+      "noidung": "Xác định đối tượng khách hàng mục tiêu cũng là yếu tố quan trọng quyết định thành bại khi kinh doanh quần áo online. Đối tượng  khách hàng bạn hướng đến là nam hay nữ? Độ tuổi bao nhiêu? Bạn hướng đến dòng sản phẩm công sở lịch lãm hay xu hướng thời trang trẻ trung, năng động?  Việc xây dựng bản kế hoạch kinh doanh quần áo online, xác định khách hàng giúp bạn khoanh vùng đối tượng, hiểu rõ hơn nhu cầu của tập khách hàng mục tiêu, xu hướng thời trang của họ. Đối tượng của bạn càng chi tiết bao nhiêu, dễ hình dung như thế nào thì sẽ giúp bạn dễ dàng hơn trong việc vạch ra các kế hoạch tiếp theo.",
+      "image": "https://blog.dktcdn.net/files/kinh-doanh-quan-ao-online-111111.png",
+      "id": 2
+    },
+    {
+      "name": "KINH NGHIỆM XƯƠNG MÁU GIÚP BÁN QUẦN ÁO TRẺ EM ONLINE ĐẮT HÀNG",
+      "tomtat": "Trang phục trẻ em vẫn luôn là một ngành kinh doanh chưa bao giờ hết hot",
+      "noidung": "Nguồn vốn là yếu tố tiên quyết khi bạn bắt đầu kinh doanh bất kì một ngành hàng nào, đặc biệt là kinh doanh quần áo trẻ em online. Khi có nguồn vốn tốt, bạn có thể tự do lựa chọn được ngành hàng kinh doanh phù hợp. Đối với bán đồ trẻ em online như quần áo, bạn sẽ không phải sử dụng nguồn vốn quá lớn. Việc bán online giúp bạn tiết kiệm một khoản “kha khá” chi phí mặt bằng.",
+      "image": "https://trustsales.vn/image/ban-quan-ao-tre-em-online.jpg",
+      "id": 3
+    },
+    {
+      "name": "Đặt tên cửa hàng ấn tượng, dễ nhớ",
+      "tomtat": "Dù bạn đặt tên theo cách nào thì cũng nên nhớ lấy tên tiếng Việt là chính còn nếu có tiếng anh thì chỉ là phụ",
+      "noidung": "Thực tế thì bạn có thể cách kinh doanh thời trang online mà không cần một cái tên nhưng điều đó nghe thật vô lí đúng không? Vậy nên nếu muốn đạt hiệu quả khi kinh doanh quần áo online và muốn phát triển lâu dài, muốn tận dụng cơ hội quảng cáo truyền miệng thì bạn nên có một cái tên “ngắn gọn và dễ nhớ”, để khách hàng có thể nhắc đến bạn, bàn tán về bạn và tin tưởng cửa hàng của bạn.  Dù bạn đặt tên theo cách nào thì cũng nên nhớ lấy tên tiếng Việt là chính còn nếu có tiếng anh thì chỉ là phụ, chúc bạn tìm được một cái tên hay, ưng ý, và đặc biệt dễ nhớ, mang lại hiệu quả kinh doanh tốt cho cửa hàng của mình.",
+      "image": "https://blog.dktcdn.net/files/cach-kinh-doanh-quan-ao-online-4.png",
+      "id": 4
+    }
+  ],
+  "binhluan": [
+    {
+      "name": "Lý Thành Phú",
+      "email": "phultpc01595@fpt.edu.vn",
+      "phone": "0794248804",
+      "content": "aqdasdasasd",
+      "id_pro": "6",
+      "id": 7
+    },
+    {
+      "name": "user 1",
+      "email": "2@gmail.com",
+      "phone": "0794248804",
+      "content": "ff",
+      "id_pro": "5",
+      "id": 8
+    },
+    {
+      "name": "Lý Thành Phú",
+      "email": "phultpc01595@fpt.edu.vn",
+      "phone": "0794248804",
+      "content": "a",
+      "id_pro": "1",
+      "id": 9
+    },
+    {
+      "name": "Lý Thành Phú",
+      "email": "phultpc01595@fpt.edu.vn",
+      "phone": "0794248804",
+      "content": "a",
+      "id_pro": "1",
+      "id": 10
+    },
+    {
+      "name": "Lý Thành Phú",
+      "email": "phultpc01595@fpt.edu.vn",
+      "phone": "0794248804",
+      "content": "b",
+      "id_pro": "1",
+      "id": 11
+    },
+    {
+      "name": "Lý Thành Phú",
+      "email": "phultpc01595@fpt.edu.vn",
+      "phone": "0794248804",
+      "content": "qweqe",
+      "id_pro": "2",
+      "id": 12
+    }
+  ]
+}

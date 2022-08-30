@@ -1,0 +1,112 @@
+{
+  "Category": [
+    {
+      "id": 1,
+      "name": "Áo thun"
+    },
+    {
+      "id": 2,
+      "name": "Áo khoác"
+    },
+    {
+      "id": 3,
+      "name": "Quần JEAN"
+    },
+    {
+      "id": 4,
+      "name": "Quần dài"
+    },
+    {
+      "id": 5,
+      "name": "Phụ kiện"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver23",
+      "cate_id": 1,
+      "price": 180000,
+      "detail": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver23",
+      "image": "img/product/product-5.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver25",
+      "cate_id": 1,
+      "price": 180000,
+      "detail": "Áo Thun Cổ Tròn Y Nguyên Bản 18- Ver25",
+      "image": "img/product/product-8.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Áo Khoác Hoodie Đơn Giản Y Nguyên Bản Ver21",
+      "cate_id": 2,
+      "price": 299000,
+      "detail": "Áo Khoác Hoodie Đơn Giản Y Nguyên Bản Ver21",
+      "image": "img/product/product-4.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Áo Khoác Varsity Thần Cổ Đại Valknut Ver4",
+      "cate_id": 2,
+      "price": 595000,
+      "detail": "Áo Khoác Varsity Thần Cổ Đại Valknut Ver4",
+      "image": "img/product/product-12.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Quần Dài Jean Straight Đơn Giản Y Nguyên Bản Ver5",
+      "cate_id": 3,
+      "price": 285000,
+      "detail": "Quần Dài Jean Straight Đơn Giản Y Nguyên Bản Ver5",
+      "image": "img/product/product-15.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Quần Dài Jean Slimfit Đơn Giản Thần Cổ Đại Valknut Ver1",
+      "cate_id": 3,
+      "price": 425000,
+      "detail": "Quần Dài Jean Slimfit Đơn Giản Thần Cổ Đại Valknut Ver1",
+      "image": "img/product/product-16.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Quần Dài Sweatpants Linh Vật Bbuff Ver1",
+      "cate_id": 4,
+      "price": 228000,
+      "detail": "Quần Dài Sweatpants Linh Vật Bbuff Ver1",
+      "image": "img/product/product-17.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Quần Dài Sweatpants Linh Vật Olygre Ver1",
+      "cate_id": 4,
+      "price": 295200,
+      "detail": "Quần Dài Sweatpants Linh Vật Olygre Ver1",
+      "image": "img/product/product-18.jpg"
+    },
+    {
+      "id": 9,
+      "name": "PKTT Vớ Đơn Giản V01",
+      "cate_id": 5,
+      "price": 19500,
+      "detail": "PKTT Vớ Đơn Giản V01",
+      "image": "img/product/product-11.jpg"
+    },
+    {
+      "id": 10,
+      "name": "PKTT Móc Khóa M3",
+      "cate_id": 5,
+      "price": 49000,
+      "detail": "PKTT Móc Khóa M3",
+      "image": "img/product/product-7.jpg"
+    }
+  ],
+  "order": [
+    
+  ],
+  "order_details": [
+   
+  ]
+}

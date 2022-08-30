@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Male_Fashion Template" />
+    <meta name="keywords" content="Male_Fashion, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cửa hàng thời trang T&P</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+
+       <!-- Page Preloder -->
+       <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+      <div class="offcanvas__option">
+        <div class="offcanvas__links">
+          <a href="#" onclick="dangnhap()">Đăng nhập</a>
+          <a href="#">Đăng ký</a>
+        </div>
+      </div>
+      <div class="offcanvas__nav__option">
+        <a href="#" class="search-switch"
+          ><img src="img/icon/search.png" alt=""
+        /></a>
+        <a href="#"><img src="img/icon/heart.png" alt="" /></a>
+        <a href="./giohang.html"><img src="img/icon/cart.png" alt="" id="slspgh" />dqwdqwqwdqw</a>
+        <div class="price"><span id="ttmenu"></span></div>
+      </div>
+      <div id="mobile-menu-wrap"></div>
+      <div class="offcanvas__text">
+        <p>
+          Miễn phí vận chuyển, hoàn trả trong 30 ngày hoặc đảm bảo hoàn lại
+          tiền.
+        </p>
+      </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+     <!-- Header Section Begin -->
+     <header class="header">
+      <!-- <div class="header__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-7">
+              <div class="header__top__left">
+                <p>
+                  Miễn phí vận chuyển, hoàn trả trong 30 ngày hoặc đảm bảo hoàn
+                  lại tiền.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-5">
+              <div class="header__top__right">
+                <div class="header__top__links">
+                  <a href="#">Đăng nhập</a>
+                  <a href="#">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <div class="header__logo">
+              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <nav class="header__menu mobile-menu">
+              <ul>
+                <li class="active"><a href="./index.html">Trang chủ</a></li>
+                <li>
+                  <a href="./shop.html">Sản phẩm</a>
+                  <ul class="dropdown" id="drop_menu"></ul>
+                </li>
+                <!-- <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
+                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li> -->
+                <li><a href="./blog.html">Tin tức</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="header__nav__option">
+            
+                <form action="timkiem.html">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm" name="search_product" required="không được bỏ trống">
+                    <button type="submit" name="search_button"><img src="img/icon/search.png" alt=""/></button>
+                    <a href="./giohang.html" id="hienThiSoLuong"><img src="img/icon/cart.png" alt="" /></a>
+                  </form>
+                                
+            </div>
+          </div>
+        </div>
+        <div class="canvas__open"><i class="fa fa-bars"></i></div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>Thanh toán</h4>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html">Trang chủ</a>
+                            <a href="./shop.html">Sản phẩm</a>
+                            <span>Thanh toán</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Checkout Section Begin -->
+    <section class="checkout spad">
+        <div class="container">
+            <div class="checkout__form">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                         
+                            <h6 class="checkout__title">CHI TIẾT HÓA ĐƠN</h6>
+
+                            <div class="checkout__input">
+                                <p>Họ và tên<span>*</span></p>
+                                <input type="text" id="hoVaTen" placeholder="Nhập họ và tên">
+                            </div>     
+                                             
+                            <div class="checkout__input">
+                                <p>Địa chỉ<span>*</span></p>
+                                <input type="text" id="diaChi" placeholder="Nhập địa chỉ giao hàng" class="checkout__input__add">                             
+                            </div>   
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Số điện thoại<span>*</span></p>
+                                        <input type="number" id="soDienThoai" placeholder="Nhập số điện thoại">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Email<span>*</span></p>
+                                        <input type="email" id="email" placeholder="Nhập email">
+                                    </div>
+                                </div>
+                            </div>
+                                  
+                            <div class="checkout__input" >
+                                <p>Ghi chú</p>
+                                <input type="text" id="ghiChu" placeholder="Nhập ghi chú">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" >
+                         
+                          <div class="checkout__order" >
+                            <h4 class="order__title">Chi tiết hóa đơn</h4>
+                            <div class="checkout__order__products" id="chitietdon">Tên sản phẩm <span>Tổng</span></div>
+                             <!-- hiện chi tiết đơn -->
+                             <ul class="checkout__total__all">
+                              <li>Tổng thanh toán: <span id="tongtien">1</span></li>
+                              
+                            </ul>           
+                            </div>
+                            <button type="button"  id="btnDatHang" class="site-btn">Thanh toán</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Checkout Section End -->
+  
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer__about">
+                <div class="footer__logo">
+                  <a href="#"><img src="img/footer-logo.png" alt="" /></a>
+                </div>
+                <p>
+                  Khách hàng là trọng tâm của mô hình kinh doanh độc đáo của chúng
+                  tôi, bao gồm cả thiết kế.
+                </p>
+                <a href="#"><img src="img/payment.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+              <div class="footer__widget">
+                <h6>Sản phẩm</h6>
+                <ul id="show_pro_footer"></ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="footer__widget">
+                <h6>Dịch vụ</h6>
+                <ul>
+                  <li><a href="#">Liên hệ với chúng tôi</a></li>
+                  <li><a href="#">Phương thức thanh toán</a></li>
+                  <li><a href="#">Vận chuyển</a></li>
+                  <li><a href="#">Trả lại & Trao đổi</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+              <div class="footer__widget">
+                <h6>Nhận thông báo</h6>
+                <div class="footer__newslatter">
+                  <p>
+                    Hãy là người đầu tiên biết về hàng mới xuất hiện, xem sách,
+                    bán hàng và quảng cáo!
+                  </p>
+                  <form action="#">
+                    <input type="text" placeholder="Nhập email của bạn" />
+                    <button type="submit">
+                      <span class="icon_mail_alt"></span>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="footer__copyright__text">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <p>
+                  Bản quyền thuộc Thành Phú ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                </p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+<script>
+    var url = "http://localhost:3000/Category";
+  
+    fetch(url)
+      .then((data) => data.json()) // ko nói gì hết là dùng phương thức get
+      .then((product) => {
+        pro_arr = product
+          .map((sp) => {
+            return `
+              <li><a href="#">${sp.name}</a></li>
+              `;
+          })
+          .join("");
+  
+        document.querySelector("#show_pro_footer").innerHTML = pro_arr;
+        document.querySelector("#drop_menu").innerHTML += pro_arr;
+    
+      });
+  </script>
+
+  <script>
+    //   dặt hàng
+      
+      document.querySelector("#btnDatHang").onclick = function(){
+        hovaten = document.querySelector("#hoVaTen").value.trim();
+        diachi = document.querySelector("#diaChi").value.trim();
+        email = document.querySelector("#email").value.trim();
+        sdt = document.querySelector("#soDienThoai").value.trim();
+        ghichu = document.querySelector("#ghiChu").value.trim();
+
+        if(hovaten ==""){ alert('Vui lòng nhập họ và tên'); return; }
+        
+        if(diachi ==""){
+            alert('Vui lòng nhập địa chỉ giao hàng');
+            return;
+          }
+
+
+        if(email ==""){ alert('Vui lòng nhập email'); return; }
+        
+        var check_email = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        var check1 = check_email.test(email)
+        if(!check1){
+            alert('Vui lòng nhập đúng email');
+            return
+          }
+
+        if(sdt ==""){ alert('Vui lòng nhập số điện thoại'); return; }
+          
+        var check_sdt = /^(09|03|07)[0-9]{8}$/;
+        var check = check_sdt.test(sdt);
+
+          if(!check){
+            alert('Vui lòng nhập đúng số điện thoại');
+            return
+          }
+
+        var donhang = {
+            "customer_name": hovaten,
+            "customer_address": diachi,
+            "customer_email": email,
+            "customer_phone_number": sdt,
+            "customer_date": new Date().toDateString().slice(0,10),
+            "status": "Đặt hàng thành công",
+            "tongthanhtoan":tongtien
+        }
+
+        url = "http://localhost:3000/order";
+        options = {
+            method: "post",
+            body: JSON.stringify(donhang),
+            headers:{ "Content-Type": 'application/json' }
+        }
+        fetch(url,options)  
+        .then( res => res.json())
+        .then( data => {
+
+            order_id = data.id;
+
+            luuChiTietHoaDon(order_id); 
+
+            alert("Đặt hàng thành công")
+
+            localStorage.removeItem("cart")
+
+        })   
+        
+     
+      }
+  </script>
+
+  <script>
+      function luuChiTietHoaDon(order_id){
+          let cart =  JSON.parse(localStorage.getItem("cart"));
+          cart.forEach( sp =>{
+              let objSP = {
+                "order_id": order_id,
+                "pro_id": sp.id,
+                "quantity": sp.quantity,
+                "tongtien": tongtien,
+                "unit_price": sp.price
+              }
+              url = "http://localhost:3000/order_details";
+              options = {
+                method: "post",
+                body: JSON.stringify(objSP),
+                headers:{ "Content-Type": 'application/json'}
+            }
+              fetch(url, options).then( res => res.json())
+              .then( d => {
+                  document.location="index.html"
+              })
+          })
+      }
+  </script>
+  <script>
+    // hiển thị chi tiết đơn
+    var cart = JSON.parse (localStorage.getItem("cart"))
+    var i =0 ;
+    var output =""
+    cart.forEach(function(index) {
+      output +=`
+        <ul class="checkout__total__products">
+            <li>${i}. ${index.name}x${index.quantity} <span class="tien">${index.quantity * index.price} </span></li>                                
+          </ul>
+      `
+    })
+    document.querySelector("#chitietdon").innerHTML=output
+    console.log(cart)
+</script>
+<script>
+  var tgtien = document.querySelector("#tongtien");
+  var price_gia = document.querySelectorAll(".tien");
+  console.log(price_gia[0].innerText);
+  var tongtien = 0;
+  for (let index = 0; index < price_gia.length; index++) {
+      tongtien += Number(price_gia[index].innerText);
+      console.log(price_gia[index].innerText);
+  }
+  console.log(tongtien);
+  tgtien.innerHTML = tongtien+"<sup>đ</sup>";
+</script>
+<script>
+  // hiện số lượng sp
+  var cart = JSON.parse (localStorage.getItem("cart"))
+
+  var hg =  cart.length;
+
+   document.querySelector("#hienThiSoLuong").innerHTML+=`<span>${hg}</span>`
+  
+</script>
+
+<script>
+    
+
+      arrTien = document.getElementsByClassName("tien");
+
+      tongTien = 0;
+
+      for (let t of  arrTien){
+
+          tongTien +=parseInt(t.innerText)
+
+      }
+
+      document.querySelector("#tongtien").innerText = tongTien.toLocaleString('vi', {style : 'currency', currency : 'VND'});
+
+</script>
